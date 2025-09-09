@@ -27,7 +27,7 @@ def setup_instance(db):
             "instance_name": "Test Instance",
             "instance_id": str(uuid.uuid4()),
             "current_version": "1.0.0",
-            "domain": "http://localhost:8000",
+            "domain": "http://localhost:7800",
             "last_checked_at": timezone.now(),
             "is_setup_done": True,
         },

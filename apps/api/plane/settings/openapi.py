@@ -40,7 +40,7 @@ SPECTACULAR_SETTINGS = {
     # Server Configuration
     # ========================================================================
     "SERVERS": [
-        {"url": "http://localhost:8000", "description": "Local"},
+        {"url": "http://localhost:7800", "description": "Local"},
         {"url": "https://api.plane.so", "description": "Production"},
     ],
     # ========================================================================

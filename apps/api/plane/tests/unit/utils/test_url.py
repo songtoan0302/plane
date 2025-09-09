@@ -15,7 +15,7 @@ class TestContainsURL:
         """Test contains_url with HTTP protocol URLs"""
         assert contains_url("Check out http://example.com") is True
         assert contains_url("Visit http://google.com/search") is True
-        assert contains_url("http://localhost:8000") is True
+        assert contains_url("http://localhost:7800") is True
 
     def test_contains_url_with_https_protocol(self):
         """Test contains_url with HTTPS protocol URLs"""
@@ -171,7 +171,7 @@ class TestIsValidURL:
         assert is_valid_url("https://example.com") is True
         assert is_valid_url("http://google.com") is True
         assert is_valid_url("https://sub.domain.com/path") is True
-        assert is_valid_url("http://localhost:8000") is True
+        assert is_valid_url("http://localhost:7800") is True
         assert is_valid_url("https://example.com/path?query=1") is True
         assert is_valid_url("ftp://files.example.com") is True
 
