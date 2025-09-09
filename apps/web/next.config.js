@@ -8,7 +8,6 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   output: "standalone",
-  allowedDevOrigins: ["*"],
   async headers() {
     return [
       {
@@ -21,6 +20,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
+    allowedDevOrigins: ["*"],
     optimizePackageImports: [
       "lucide-react",
       "date-fns",

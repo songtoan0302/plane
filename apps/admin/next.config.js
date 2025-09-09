@@ -5,12 +5,12 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   output: "standalone",
-  allowedDevOrigins: ["*"],
   images: {
     unoptimized: true,
   },
   basePath: process.env.NEXT_PUBLIC_ADMIN_BASE_PATH || "",
   experimental: {
+    allowedDevOrigins: ["*"],
     optimizePackageImports: [
       "@plane/constants",
       "@plane/editor",

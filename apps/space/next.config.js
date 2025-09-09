@@ -6,7 +6,6 @@ const nextConfig = {
   basePath: process.env.NEXT_PUBLIC_SPACE_BASE_PATH || "",
   reactStrictMode: false,
   swcMinify: true,
-  allowedDevOrigins: ["*"],
   async headers() {
     return [
       {
@@ -25,6 +24,7 @@ const nextConfig = {
     unoptimized: true,
   },
   experimental: {
+    allowedDevOrigins: ["*"],
     optimizePackageImports: [
       "@plane/constants",
       "@plane/editor",
