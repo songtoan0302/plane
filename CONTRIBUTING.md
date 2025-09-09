@@ -76,8 +76,8 @@ docker compose -f docker-compose-local.yml up
 pnpm dev
 ```
 
-5. Open your browser to http://localhost:3001/god-mode/ and register yourself as instance admin
-6. Open up your browser to http://localhost:3000 then log in using the same credentials from the previous step
+5. Open your browser to http://localhost:7301/god-mode/ and register yourself as instance admin
+6. Open up your browser to http://localhost:7300 then log in using the same credentials from the previous step
 
 That’s it! You’re all set to begin coding. Remember to refresh your browser if changes don’t auto-reload. Happy contributing! 🎉
 
