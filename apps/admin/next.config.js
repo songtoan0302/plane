@@ -5,6 +5,7 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   output: "standalone",
+  allowedDevOrigins: ["*"],
   images: {
     unoptimized: true,
   },
