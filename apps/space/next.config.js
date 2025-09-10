@@ -6,6 +6,7 @@ const nextConfig = {
   basePath: process.env.NEXT_PUBLIC_SPACE_BASE_PATH || "",
   reactStrictMode: false,
   swcMinify: true,
+  allowedDevOrigins: ["144.91.92.141"],
   async headers() {
     return [
       {
