@@ -8,7 +8,7 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   output: "standalone",
-  allowedDevOrigins: ["144.91.92.141"],
+  allowedDevOrigins: ["*"],
   async headers() {
     return [
       {

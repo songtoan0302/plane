@@ -9,7 +9,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: process.env.NEXT_PUBLIC_ADMIN_BASE_PATH || "",
-  allowedDevOrigins: ["144.91.92.141"],
+  allowedDevOrigins: ["*"],
   experimental: {
     allowedDevOrigins: ["*"],
     optimizePackageImports: [
